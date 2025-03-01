@@ -16,10 +16,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Debugging: Cek username yang digunakan
-      - name: Debug GitHub Username
-        run: echo "GitHub User: notfirsttt"
-
       # Generate snake
       - name: Generate Snake Contribution Graph
         uses: Platane/snk@v3  # Upgrade ke versi terbaru
